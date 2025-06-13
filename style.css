@@ -1,0 +1,12 @@
+header  {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 50px;
+}
+
+.header-container    {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 10px;
+}
