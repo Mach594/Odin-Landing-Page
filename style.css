@@ -4,13 +4,12 @@ body    {
     margin: 0;
 }
 
+/* Formatting for header */
 header  {
     display: flex;
     flex-direction: row;
     padding: 15px 50px;
     background-color: black;
-    
-    
 }
 
 .header-container    {
@@ -29,4 +28,52 @@ a   {
     color: white;
     font-weight: 800;
     font-size: medium;
+}
+
+/* Formatting for section-one */
+.section-one    {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 50px 20px;
+    justify-content: space-evenly;
+}
+
+.left   {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 400px;
+}
+
+.section-one .left .top {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
+.section-one .left .bottom  {
+    color: rgb(197, 197, 197);
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.section-one .left button  {
+    background-color: rgb(45, 132, 255);
+    color: white;
+    max-width: 95px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.section-one .right {
+    background-color: grey;
+    width: 400px;
+    height: 200px;
+}
+
+.section-one .right a   {
+    color: white;
+    align-self: center;
+    
 }
