@@ -70,10 +70,11 @@ a   {
     background-color: grey;
     width: 400px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.section-one .right a   {
+.section-one a   {
     color: white;
-    align-self: center;
-    
 }
