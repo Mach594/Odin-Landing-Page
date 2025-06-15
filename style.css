@@ -4,7 +4,7 @@ body    {
     margin: 0;
 }
 
-/* Formatting for header */
+/* Header CSS */
 header  {
     display: flex;
     flex-direction: row;
@@ -30,19 +30,21 @@ a   {
     font-size: medium;
 }
 
-/* Formatting for section-one */
+/* .section-one CSS */
 .section-one    {
     display: flex;
     flex-direction: row;
     background-color: black;
     padding: 50px 20px;
-    justify-content: space-evenly;
+    gap: 50px;
+    justify-content: center;
 }
 
-.left   {
+.section-one .left   {
     display: flex;
     flex-direction: column;
     flex: 0 1 400px;
+    margin-left: auto;
 }
 
 .section-one .left .top {
@@ -73,8 +75,43 @@ a   {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: auto;
 }
 
 .section-one a   {
     color: white;
+}
+
+/* .section-two CSS */
+.section-two    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-two .top   {
+    align-self: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.section-two .bottom    {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px
+}
+
+.section-two a    {
+    border-color: blue;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-two .box p {
+    max-width: 150px;
+    text-align: center;
 }
