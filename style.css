@@ -189,3 +189,24 @@ a   {
     font-size: 12px;
 }
 
+.section-four button    {
+    color: white;
+    background-color: rgb(45, 132, 255);
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 10px;
+}
+
+/* footer CSS */
+footer  {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    flex-shrink: 0;
+    font-size: 12px;
+}
