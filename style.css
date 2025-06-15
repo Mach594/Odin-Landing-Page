@@ -127,3 +127,30 @@ a   {
     align-items: center;
     justify-content: center;
 }
+
+/* .section-three CSS */
+.section-three   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: rgb(215, 215, 215);
+    padding: 75px;
+}
+
+.section-three .top   {
+    display: flex;
+    text-align: left;
+    text-align: justify;
+    width: 400px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.section-three .bottom  {
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    justify-content: flex-end;
+    width: 400px;
+}
