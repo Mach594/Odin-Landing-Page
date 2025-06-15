@@ -133,7 +133,6 @@ a   {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     background-color: rgb(215, 215, 215);
     padding: 75px;
 }
@@ -141,10 +140,10 @@ a   {
 .section-three .top   {
     display: flex;
     text-align: left;
-    text-align: justify;
-    width: 400px;
+    width: 425px;
     margin: 0;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .section-three .bottom  {
@@ -154,3 +153,39 @@ a   {
     justify-content: flex-end;
     width: 400px;
 }
+
+/* .section-four CSS */
+.section-four   {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 132, 255);
+    padding: 25px 75px;
+    border-radius: 8px;
+    gap: 25px;
+}
+
+.section-four .right    {
+    margin-left: auto;
+}
+
+.section-four .left {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+.section-four h4    {
+    display: flex;
+    margin: 0;
+}
+
+.section-four p {
+    display: flex;
+    margin: 0;
+    font-size: 12px;
+}
+
